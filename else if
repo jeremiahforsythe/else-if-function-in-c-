@@ -1,0 +1,22 @@
+int main()
+
+{
+	int  number = 0;
+	cout << "please input a number:" << endl;
+	cin >> number;
+
+	if (number < 10) {
+		cout << "your number is less then ten!!" << endl;
+	}
+	else if (number >= 10 && number < 15) {
+		cout << "The number is greater or equel then 10 and or below 15" << endl;
+
+
+	}
+	else {
+		cout << " The number is great or equal too 15" << endl;
+
+
+	}
+	return 0;
+}
